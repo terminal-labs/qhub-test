@@ -22,7 +22,7 @@ security:
       secondary_groups:
       - admin
     verhulstm:
-      uid: 1001
+      uid: 1000001
       primary_group: users
       secondary_groups:
       - admin
