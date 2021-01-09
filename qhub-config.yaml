@@ -21,6 +21,11 @@ security:
       primary_group: users
       secondary_groups:
       - admin
+    verhulstm:
+      uid: 1001
+      primary_group: users
+      secondary_groups:
+      - admin
   groups:
     users:
       gid: 100
