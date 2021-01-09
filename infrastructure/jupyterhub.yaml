@@ -19,7 +19,7 @@ hub:
 
   extraConfig:
     01-spawner: |
-      QHUB_USER_MAPPING = {'costrouc': {'uid': 1000, 'primary_group': 'users', 'secondary_groups': ['admin']}, 'verhulstm': {'uid': 1001, 'primary_group': 'users', 'secondary_groups': ['admin']}}
+      QHUB_USER_MAPPING = {'costrouc': {'uid': 1000, 'primary_group': 'users', 'secondary_groups': ['admin']}, 'verhulstm': {'uid': 1000001, 'primary_group': 'users', 'secondary_groups': ['admin']}}
       QHUB_GROUP_MAPPING = {'users': {'gid': 100}, 'admin': {'gid': 101}}
       QHUB_PROFILES = [{'display_name': 'Small Instance', 'description': 'Stable environment with 1 cpu / 1 GB ram', 'default': True, 'kubespawner_override': {'cpu_limit': 1, 'cpu_guarantee': 1, 'mem_limit': '1G', 'mem_guarantee': '1G', 'image': 'quansight/qhub-jupyterlab:1abd4efb8428a9d851b18e89b6f6e5ef94854334'}}, {'display_name': 'Medium Instance', 'description': 'Stable environment with 1.5 cpu / 2 GB ram', 'kubespawner_override': {'cpu_limit': 1.5, 'cpu_guarantee': 1.25, 'mem_limit': '2G', 'mem_guarantee': '2G', 'image': 'quansight/qhub-jupyterlab:1abd4efb8428a9d851b18e89b6f6e5ef94854334'}}]
 
